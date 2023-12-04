@@ -16,19 +16,13 @@
 # Apps
 PRODUCT_PACKAGES += \
     EvoEgg \
-    Launcher3QuickStep \
     GameSpace \
-    OmniJaws \
     Papers \
     RepainterServicePriv \
-    ThemePicker \
     Updates
-
-TARGET_BUILD_VIMUSIC ?= false
-ifeq ($(TARGET_BUILD_VIMUSIC),true)
-PRODUCT_PACKAGES += \
-    ViMusic
-endif
+#    ParallelSpace \
+#    ThemePicker \
+#    WallpaperPicker2
 
 # Whether the compiled build to be shipped with Aperture CAM
 TARGET_BUILD_APERTURE_CAMERA ?= true
